@@ -34,13 +34,13 @@ Ca sử dụng này yêu cầu xử lý yêu cầu từ người dùng, truy v�
  Mô tả ca sử dụng "Maintain Timecard":
 
  *Người dùng có thể nhập hoặc cập nhật thời gian làm việc của nhân viên.
- *Ca sử dụng này yêu cầu giao diện để nhập liệu, xử lý logic lưu trữ và cập nhật vào cơ sở dữ liệu.
+ * Ca sử dụng này yêu cầu giao diện để nhập liệu, xử lý logic lưu trữ và cập nhật vào cơ sở dữ liệu.
  
- *Biểu đồ lớp (Class Diagram) cho "Maintain Timecard" Use Case 
+ * Biểu đồ lớp (Class Diagram) cho "Maintain Timecard" Use Case 
 
  ![Diagram](https://www.planttext.com/api/plantuml/png/V93F2i8m3CRlVOeS9zWNs45syE9L1S-r2LXirz4_Wp5yCWy-agzW1xMo3SmXa7nVyWjvFr-D3yA5Q3IJMdWFPsL82eSmCaZ1GM4DgWsv8jDfEn0TPjsRZSvVhBjJQgEDLqrPGH6eXdtAxC4MY1EvNadA9021-9Mg8ElYssGzTjEsOic7RM7kNM6Er5clWdL38NdHKxKQMzx5-QuO_ee_0ckenUcP7m000F__0m00)
 
- *Biểu đồ tuần tự (Sequence Diagram) cho "Maintain Timecard" Use Case
+ * Biểu đồ tuần tự (Sequence Diagram) cho "Maintain Timecard" Use Case
  
  ![Diagram](https://www.planttext.com/api/plantuml/png/X92x3G8n38RxJ94IYbk00bt503m6i1mZB5tEoCuTOZOAHc850bAaG91eN5ZVvyV_kDrxIw1fYeC3JAB-OAJkLNotzdkEXA1X8nhzoaC8fRC8b807MxeFfd9sf3CZ_TCALfbREejnFkQQPOEPMgj2kfyxRK8aitPD-nNAU6IDNuzaxfr27dMIIu4WiOokfp7an9u0003__mC0)
  
