@@ -9,7 +9,8 @@ Kiến trúc đề xuất cho hệ thống "Payroll System" là kiến trúc 3-t
 Lý do lựa chọn mô hình này vì :
 
 Kiến trúc 3-tầng giúp hệ thống dễ mở rộng và bảo trì. Mỗi tầng xử lý một khía cạnh riêng của hệ thống, giúp các thành phần ít bị phụ thuộc lẫn nhau, nâng cao tính linh hoạt và khả năng tái sử dụng.
-*Biểu đồ Package UML cho Kiến trúc 3-Tầng
+
+* Biểu đồ Package UML cho Kiến trúc 3-Tầng : 
 
 ![Diagram](https://www.planttext.com/api/plantuml/png/T91D2i9034RtSugX-rv1MX3NHRr0I8CCpX_9A9JYoLnu9A_WM12dCcRvFNZvakVzqKa2JXTdLGGymubqCp09-GJ91D_eMUayQ4543p2vJ7Q1NP4UZIC47fVufhwYFaPhyB_dG7mrI1NLXvIsBIJGFIA9L6rxYa5C2ZnLX0NCpfyJstQpBglMrHTUhbST-V7zinS0003__mC0)
 
