@@ -2,10 +2,11 @@
 Đề xuất kiến trúc:
 
 Kiến trúc đề xuất cho hệ thống "Payroll System" là kiến trúc 3-tầng (3-Tier Architecture), gồm:
-Tầng Presentation (Giao diện): Phụ trách giao tiếp với người dùng cuối, cung cấp các form và giao diện để quản lý thanh toán và nhập liệu.
-Tầng Application (Ứng dụng): Xử lý nghiệp vụ, thực hiện các ca sử dụng như "Select Payment" và "Maintain Timecard".
-Tầng Data Access (Truy cập dữ liệu): Quản lý việc lưu trữ và truy xuất dữ liệu từ cơ sở dữ liệu.
-Lý do lựa chọn:
+- Tầng Presentation (Giao diện): Phụ trách giao tiếp với người dùng cuối, cung cấp các form và giao diện để quản lý thanh toán và nhập liệu.
+- Tầng Application (Ứng dụng): Xử lý nghiệp vụ, thực hiện các ca sử dụng như "Select Payment" và "Maintain Timecard".
+- Tầng Data Access (Truy cập dữ liệu): Quản lý việc lưu trữ và truy xuất dữ liệu từ cơ sở dữ liệu.
+  
+Lý do lựa chọn mô hình này vì :
 
 Kiến trúc 3-tầng giúp hệ thống dễ mở rộng và bảo trì. Mỗi tầng xử lý một khía cạnh riêng của hệ thống, giúp các thành phần ít bị phụ thuộc lẫn nhau, nâng cao tính linh hoạt và khả năng tái sử dụng.
 *Biểu đồ Package UML cho Kiến trúc 3-Tầng
@@ -15,10 +16,10 @@ Kiến trúc 3-tầng giúp hệ thống dễ mở rộng và bảo trì. Mỗi 
  ### 2. Cơ chế phân tích
 Các cơ chế quan trọng cần được giải quyết bao gồm:
 
-Xử lý và lưu trữ thông tin thanh toán: Đảm bảo tính chính xác và bảo mật cho dữ liệu thanh toán.
-Quản lý thời gian làm việc: Cung cấp cơ chế để nhập liệu và lưu trữ thông tin chấm công của nhân viên.
-Tính toán lương: Xử lý các công thức tính lương dựa trên dữ liệu chấm công và các quy định.
-Bảo mật thông tin: Đảm bảo dữ liệu nhạy cảm không bị truy cập trái phép.
+- Xử lý và lưu trữ thông tin thanh toán: Đảm bảo tính chính xác và bảo mật cho dữ liệu thanh toán.
+- Quản lý thời gian làm việc: Cung cấp cơ chế để nhập liệu và lưu trữ thông tin chấm công của nhân viên.
+- Tính toán lương: Xử lý các công thức tính lương dựa trên dữ liệu chấm công và các quy định.
+- Bảo mật thông tin: Đảm bảo dữ liệu nhạy cảm không bị truy cập trái phép.
  ### 3. Phân tích ca sử dụng "Select Payment"
 Mô tả ca sử dụng "Select Payment":
 
