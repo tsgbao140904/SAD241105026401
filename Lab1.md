@@ -24,8 +24,8 @@ Các cơ chế quan trọng cần được giải quyết bao gồm:
  ### 3. Phân tích ca sử dụng "Select Payment"
 Mô tả ca sử dụng "Select Payment":
 
-Người dùng có thể chọn một khoản thanh toán để xem thông tin chi tiết như ngày, số tiền, phương thức thanh toán.
-Ca sử dụng này yêu cầu xử lý yêu cầu từ người dùng, truy vấn thông tin thanh toán từ kho dữ liệu, và hiển thị chi tiết thanh toán.
+- Người dùng có thể chọn một khoản thanh toán để xem thông tin chi tiết như ngày, số tiền, phương thức thanh toán.
+- Ca sử dụng này yêu cầu xử lý yêu cầu từ người dùng, truy vấn thông tin thanh toán từ kho dữ liệu, và hiển thị chi tiết thanh toán.
 * Biểu đồ lớp (Class Diagram) cho "Select Payment" Use Case
 
   ![Diagram](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niK90OcLkQbw9GZMN0X3eAcIcM2bavfL0UOcv-QLv9LOAAVcbIJcfKC6Kn99KAmKN80aLo4qjoSW7wWikAShCI-UgvK8rEpYrg2mpEHLgXO92Uce9L4O3Qfkc5KmjXkQWr8ByuioI_A9AkFwqr9Ba3Bmce5cigsi7byKjXR29oo4rBmKKH000003__mC0)
@@ -35,7 +35,7 @@ Ca sử dụng này yêu cầu xử lý yêu cầu từ người dùng, truy v�
   ### 4. Phân tích ca sử dụng "Maintain Timecard"
  Mô tả ca sử dụng "Maintain Timecard":
 
- *Người dùng có thể nhập hoặc cập nhật thời gian làm việc của nhân viên.
+ * Người dùng có thể nhập hoặc cập nhật thời gian làm việc của nhân viên.
  * Ca sử dụng này yêu cầu giao diện để nhập liệu, xử lý logic lưu trữ và cập nhật vào cơ sở dữ liệu.
  
  * Biểu đồ lớp (Class Diagram) cho "Maintain Timecard" Use Case 
