@@ -47,4 +47,4 @@ Mô tả ca sử dụng "Select Payment":
  ![Diagram](https://www.planttext.com/api/plantuml/png/X92x3G8n38RxJ94IYbk00bt503m6i1mZB5tEoCuTOZOAHc850bAaG91eN5ZVvyV_kDrxIw1fYeC3JAB-OAJkLNotzdkEXA1X8nhzoaC8fRC8b807MxeFfd9sf3CZ_TCALfbREejnFkQQPOEPMgj2kfyxRK8aitPD-nNAU6IDNuzaxfr27dMIIu4WiOokfp7an9u0003__mC0)
  
   ### 5. Hợp nhất kết quả phân tích
-Từ hai ca sử dụng trên, có thể xây dựng một mô hình chung gồm các lớp xử lý chính cho hệ thống như PaymentService, TimecardService, PaymentRepository, và TimecardRepository. Kiến trúc và các cơ chế được đề xuất giúp hệ thống dễ mở rộng, quản lý tốt các chức năng thanh toán và chấm công của nhân viên.
+Từ hai ca sử dụng trên, ta có thể xây dựng một mô hình chung gồm các lớp xử lý chính cho hệ thống như PaymentService, TimecardService, PaymentRepository, và TimecardRepository. Kiến trúc và các cơ chế được đề xuất giúp hệ thống dễ mở rộng, quản lý tốt các chức năng thanh toán và chấm công của nhân viên.
