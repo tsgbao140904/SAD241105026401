@@ -1,3 +1,4 @@
+ ## Xác định các phần tử thiết kế
  ### 1. Hệ thống con: BankSystem 
 
  ##### a. Biểu đồ ngữ cảnh
